@@ -1,0 +1,39 @@
+$color--Red: hsl(7, 99%, 70%);
+$color--Yellow: hsl(51, 100%, 49%);
+$color--secondary--dark: hsl(167, 40%, 24%);
+$color--secondary: hsl(198, 62%, 26%);
+$color--secondary--light: hsl(168, 34%, 41%);
+
+$color--primary--DarkTwo: hsl(212, 27%, 19%);
+$color--primary--Dark: hsl(213, 9%, 39%);
+$color--primary: hsl(232, 10%, 55%);
+$color--primary--Light: hsl(210, 4%, 67%);
+$color--White: hsl(0, 0%, 100%);
+$color--footer: hsl(167, 44%, 70%);
+
+$font--primary: "Barlow", sans-serif;
+$font--secondary: "Fraunces", serif;
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: $font--primary;
+  // weights: 600, 700, 900;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  grid-template-rows: 1fr auto;
+  min-height: 100vh;
+}
