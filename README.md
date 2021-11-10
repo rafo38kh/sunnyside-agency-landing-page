@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: []()
+- Solution URL: [https://www.frontendmentor.io/solutions/sunnyside-agency-landing-page-with-css-flexbox-grid-and-js-KK9pLeeIj](https://www.frontendmentor.io/solutions/sunnyside-agency-landing-page-with-css-flexbox-grid-and-js-KK9pLeeIj)
 - Live Site URL: [https://rafo38kh.github.io/sunnyside-agency-landing-page/](https://rafo38kh.github.io/sunnyside-agency-landing-page/)
 
 ## My process
@@ -37,6 +37,8 @@ Users should be able to:
 - Semantic HTML5 markup
 - SCSS custom properties
 - CSS Flexbox
+- CSS Grid
+- Vanilla JS
 - Mobile-first workflow
 
 ## Author
