@@ -23,8 +23,12 @@
   <body>
     <div class="container">
       <header class="sunnyside">
-        <div class="sunnyside__navbar">
-          <img src="./images/logo.svg" alt="" class="sunnyside__logo" />
+        <div class="sunnyside__navbar" aria-label="primary">
+          <img
+            src="./images/logo.svg"
+            alt="sunnyside"
+            class="sunnyside__logo"
+          />
           <nav>
             <button
               class="sunnyside__btn sunnyside__btn-js"
@@ -69,13 +73,14 @@
           <img
             src="./images/icon-arrow-down.svg"
             alt=""
+            aria-hidden="true"
             class="sunnyside__arrow"
           />
         </div>
       </header>
 
       <main class="content">
-        <section class="content__grid-box">
+        <section class="content__grid-box" aria-labelledby="branding">
           <div class="content__grid-picture content__grid-picture--egg"></div>
           <div class="content__text-box content__text-box--left">
             <h2 class="content__title">Transform your brand</h2>
@@ -90,7 +95,7 @@
           </div>
         </section>
 
-        <section class="content__grid-box">
+        <section class="content__grid-box" aria-labelledby="audience">
           <div class="content__grid-picture content__grid-picture--glass"></div>
           <div class="content__text-box content__text-box--left">
             <h2 class="content__title">Stand out to the right audience</h2>
@@ -99,13 +104,16 @@
               photographers, videographers, and copywriters, we’ll build and
               extend your brand in digital places.
             </p>
-            <a href="" class="content__link-more content__link-more--pink"
+            <a href="#" class="content__link-more content__link-more--pink"
               >Learn more</a
             >
           </div>
         </section>
 
-        <section class="content__grid-box content__grid-box--last">
+        <section
+          class="content__grid-box content__grid-box--last"
+          aria-labelledby="graphic design and photography"
+        >
           <div class="content__grid-picture content__grid-picture--cherry">
             <div class="content__text-box content__text-box--cherry">
               <h2 class="content__fruit-title content__fruit-title--cherry">
@@ -141,14 +149,14 @@
           </div>
         </section>
 
-        <section class="content__team">
+        <section class="content__team" aria-labelledby="reviews">
           <h2 class="content__team__title">Client testimonials</h2>
 
           <div class="content__collective">
             <div class="content__employee">
               <img
                 src="./images/image-emily.jpg"
-                alt=""
+                alt="Emily R."
                 class="content__employee__picture"
               />
               <p class="content__employee__description">
@@ -164,7 +172,7 @@
             <div class="content__employee">
               <img
                 src="./images/image-thomas.jpg"
-                alt=""
+                alt="Thomas S."
                 class="content__employee__picture"
               />
               <p class="content__employee__description">
@@ -180,7 +188,7 @@
             <div class="content__employee">
               <img
                 src="./images/image-jennie.jpg"
-                alt=""
+                alt="Jennie F."
                 class="content__employee__picture"
               />
               <p class="content__employee__description">
@@ -193,7 +201,7 @@
           </div>
         </section>
 
-        <section class="content__album">
+        <section class="content__album" aria-labelledby="gallery">
           <div class="content__picture content__picture--milkbottles"></div>
           <div class="content__picture content__picture--orange"></div>
           <div class="content__picture content__picture--cone"></div>
@@ -215,17 +223,19 @@
           />
         </svg>
 
-        <ul class="content__list">
-          <li class="content__list__item">
-            <a href="#" class="content__link">About</a>
-          </li>
-          <li class="content__list__item">
-            <a href="#" class="content__link">Services</a>
-          </li>
-          <li class="content__list__item">
-            <a href="#" class="content__link">Projects</a>
-          </li>
-        </ul>
+        <nav aria-label="secondary">
+          <ul class="content__list">
+            <li class="content__list__item">
+              <a href="#" class="content__link">About</a>
+            </li>
+            <li class="content__list__item">
+              <a href="#" class="content__link">Services</a>
+            </li>
+            <li class="content__list__item">
+              <a href="#" class="content__link">Projects</a>
+            </li>
+          </ul>
+        </nav>
 
         <ul class="content__social__list">
           <li class="content__social__icons">
