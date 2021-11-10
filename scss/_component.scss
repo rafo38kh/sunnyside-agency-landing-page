@@ -21,9 +21,6 @@
     }
   }
 
-  &__nav {
-  }
-
   &__logo {
     height: 2.5rem;
   }
@@ -162,120 +159,6 @@
   }
 }
 
-//   &__navBar {
-//     background-image: url("../images/mobile/image-header.jpg");
-//     background-size: cover;
-//     background-position: bottom;
-//     background-repeat: no-repeat;
-//     // width: 100%;
-//     min-height: 66vh;
-//     padding: 3rem 2rem;
-//     position: relative;
-
-//     @media (min-width: 800px) {
-//       background-image: url("../images/desktop/image-header.jpg");
-//     }
-//   }
-
-//   &__svgs {
-//     display: flex;
-//     justify-content: space-between;
-//     align-items: center;
-//   }
-
-//   &__logo {
-//     height: 2.5rem;
-//   }
-
-//   &__menu__icon {
-//     height: 1.7rem;
-//     @media (min-width: 1140px) {
-//       display: none;
-//     }
-//   }
-
-//   &__menu__list {
-//     position: absolute;
-//     list-style: none;
-//     background-color: $color--White;
-//     padding: 3rem;
-//     text-align: center;
-//     top: 10rem;
-//     width: 90%;
-//     left: 50%;
-//     transform: translateX(-50%);
-
-//     &::before {
-//       content: "";
-//       position: absolute;
-//       width: 3rem;
-//       height: 3rem;
-//       top: -3rem;
-//       right: 0;
-//       border-top: 15px solid transparent;
-//       border-left: 15px solid transparent;
-//       border-bottom: 15px solid white;
-//       border-right: 15px solid white;
-//     }
-
-//     &-hidden {
-//       display: none;
-//     }
-
-//     @media (min-width: 1140px) {
-//       all: revert;
-//       list-style: none;
-//       display: flex;
-
-//       &::before {
-//         all: revert;
-//       }
-//     }
-//   }
-
-//   &__menu__items {
-//     margin-bottom: 4rem;
-//   }
-
-//   &__menu__link {
-//     text-decoration: none;
-//     font-size: 2rem;
-//     color: $color--primary--Light;
-
-//     &-contact {
-//       background-color: $color--Yellow;
-//       padding: 1.7rem 3.5rem;
-//       border-radius: 5rem;
-//       color: $color--primary--DarkTwo;
-//       text-transform: uppercase;
-//       font-family: $font--secondary;
-//       font-size: 1.6rem;
-//     }
-//   }
-
-//   &__heading__text {
-//     display: flex;
-//     flex-direction: column;
-//     align-items: center;
-//     margin-top: 8rem;
-//   }
-
-//   &__heading {
-//     color: $color--White;
-//     font-size: 4rem;
-//     text-transform: uppercase;
-//     font-family: $font--secondary;
-//     font-weight: 900;
-//     text-align: center;
-//     letter-spacing: 0.8rem;
-//   }
-
-//   &__arrow {
-//     margin-top: 5rem;
-//   }
-
-// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
 .content {
   &__grid-box {
     display: grid;
@@ -304,7 +187,6 @@
     background-position: center;
     display: flex;
     align-items: flex-end;
-    // justify-content: center;
 
     &--egg {
       background-image: url(../images/mobile/image-transform.jpg);
